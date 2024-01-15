@@ -1,0 +1,211 @@
+.main-container {
+    width: 360px;
+    height: 570px;
+    background-color: white;
+    border-radius: 20px
+}
+
+.image-desktop {
+    display: block;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px
+}
+
+.text-order {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%)
+}
+
+.text-song {
+    text-align: center;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    width: 258px;
+    margin-left: 55px
+}
+
+.container-flex {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    width: 290px;
+    height: 90px;
+    margin-left: 35px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icon-music {
+    width: 45px;
+    margin-left: 20px
+}
+
+.text-annual {
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-bottom: 4px;
+    color: hsl(223, 47%, 23%)
+}
+
+.text59 {
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+a {
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 60px
+}
+
+a:hover {
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+
+.text-proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    margin-left: 35px;
+    margin-top: 25px;
+    font-size: 13px;
+    border: none;
+    padding: 13px 85px;
+    white-space: nowrap;
+    border-radius: 7px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 15px 18px hsl(228, 19%, 79%);
+}
+
+.text-proceed:hover {
+    background-color: hsla(224, 41%, 43%, 0.856)
+}
+
+.text-cancel {
+    display: inline-block;
+    margin-left: 140px;
+    font-size: 13px;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.text-cancel:hover {
+    color: hsl(223, 47%, 23%)
+}
+
+@media screen and (max-width: 600px) {
+    .main-container {
+        width: 340px;
+        height: 610px;
+        background-color: white;
+        border-radius: 20px
+    }
+
+    .image-desktop {
+        display: block;
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px
+    }
+
+    .text-order {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 900;
+        color: hsl(223, 47%, 23%)
+    }
+
+    .text-song {
+
+        font-size: 18px;
+        color: hsl(224, 23%, 55%);
+        width: 290px;
+        margin-left: 25px
+    }
+
+    .container-flex {
+        display: flex;
+        background-color: hsl(225, 100%, 98%);
+        width: 290px;
+        height: 90px;
+        margin-left: 25px;
+        border-radius: 10px;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .icon-music {
+        width: 45px;
+        margin-left: 20px
+    }
+
+    .text-annual {
+        font-size: 14px;
+        font-weight: 900;
+        margin-left: 20px;
+        margin-bottom: 4px;
+        color: hsl(223, 47%, 23%)
+    }
+
+    .text59 {
+        font-size: 14px;
+        color: hsl(224, 23%, 55%);
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    a {
+        font-weight: 700;
+        font-size: 13px;
+        margin-left: 60px
+    }
+
+    a:hover {
+        color: hsl(245, 75%, 52%);
+        text-decoration: none;
+    }
+
+    .text-proceed {
+        background-color: hsl(245, 75%, 52%);
+        color: white;
+        margin-left: 22px;
+        margin-top: 25px;
+        font-size: 16px;
+        border: none;
+        padding: 18px 70px;
+        white-space: nowrap;
+        border-radius: 12px;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: 0px 15px 18px hsl(228, 19%, 79%);
+    }
+
+    .text-proceed:hover {
+        background-color: hsla(224, 41%, 43%, 0.856)
+    }
+
+    .text-cancel {
+        display: inline-block;
+        margin-left: 120px;
+        font-size: 16px;
+        font-weight: 900;
+        color: hsl(224, 23%, 55%);
+        margin-top: 33px;
+        cursor: pointer;
+
+    }
+
+    .text-cancel:hover {
+        color: hsl(223, 47%, 23%)
+    }
+}

@@ -1,0 +1,10 @@
+.body-style {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh;
+    background: url("../images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+}
